@@ -1,0 +1,7 @@
+replicaCount: 2
+image:
+  repository: portfolio-demo
+  tag: local
+  pullPolicy: IfNotPresent
+service:
+  port: 80
